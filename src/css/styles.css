@@ -1,0 +1,13 @@
+.container{
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.showQuote{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
