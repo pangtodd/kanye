@@ -11,5 +11,6 @@
   font-size: 60px;
   color: #fff;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  background: url("https://e3.365dm.com/20/11/1600x900/skynews-kanye-west-us-election_5160969.jpg")
+  background: url("https://e3.365dm.com/20/11/1600x900/skynews-kanye-west-us-election_5160969.jpg");
+  display: none;
 }

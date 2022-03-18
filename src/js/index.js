@@ -13,9 +13,10 @@ function clearFields() {
 
 $(document).ready(function() {
   $('#results').click(function() {
+    $(".showQuote").show();
     clearFields();
-    let promise = KanyeService.getYe();
-    promise.then(function(response) {
+    let promise1 = KanyeService.getYe();
+    promise1.then(function(response) {
       const body = JSON.parse(response);
       // $('.showImg').append(`<img src = "${}">`);
       $('.showQuote').text(`${body.quote}`);
